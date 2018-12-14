@@ -32,6 +32,6 @@ It is done by using two Gaussians. First Gaussian only considers spatial neighbo
 
 `blurred = cv2.bilateralFilter(image, diameter, sigmaColor, sigmaSpace)`
 
-diameter     =  pixel neighbourhood size (like kernel size)
-sigmaColor   =  color standard deviation (larger value will include more colors in neighborhood)
+diameter     =  pixel neighbourhood size (like kernel size) <br>
+sigmaColor   =  color standard deviation (larger value will include more colors in neighborhood) <br>
 sigmaSpace   =  space standard deviation (larger value means farther pixels have more influence in blurring calculation)
